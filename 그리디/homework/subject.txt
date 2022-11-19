@@ -1,4 +1,26 @@
-1. xx
+1. https://www.acmicpc.net/problem/11047
+동전 0         43%
+2. https://www.acmicpc.net/problem/2875
+대회 or 인턴  43%
+3. https://www.acmicpc.net/problem/10610
+30   39%
+4. https://www.acmicpc.net/problem/1783
+병든 나이트  43%
+5. https://www.acmicpc.net/problem/11000
+강의실 배정  29%
+//////////////////////////////////////////////////////
 
-2. xx
+추가문제
+
+6. https://www.acmicpc.net/problem/1931
+회의실 배정  29%
+7. https://www.acmicpc.net/problem/11399
+ATM  67%
+8. https://www.acmicpc.net/problem/2217
+로프   42%
+9. https://www.acmicpc.net/problem/13458
+시험감독  28%
+10. https://www.acmicpc.net/problem/1946
+신입 사원  32%
+
 
