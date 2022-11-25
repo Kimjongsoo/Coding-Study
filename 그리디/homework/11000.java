@@ -1,0 +1,53 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.PriorityQueue;
+import java.util.StringTokenizer;
+
+class Class implements Comparable<Class> {
+    int start, end;
+
+    public Class(int start, int end) {
+        this.start = start;
+        this.end = end;
+    }
+
+    @Override
+    public int compareTo(Class o) {
+        if(this.start == o.start) return this.end - o.end;
+        return this.start - o.start; // 시작 시간 오름차순 정렬
+    }
+}
+
+public class 11000{
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
+
+        ArrayList<Class> list = new ArrayList<>();
+
+        StringTokenizer st;
+        for(int i=0; i<n; i++){
+            st = new StringTokenizer(br.readLine());
+            int s = Integer.parseInt(st.nextToken());
+            int t = Integer.parseInt(st.nextToken());
+            list.add(new Class(s, t));
+        }
+
+        Collections.sort(list);
+
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        pq.offer(list.get(0).end);
+
+        for(int i=1; i<n; i++){
+            if(pq.peek() <= list.get(i).start){ // 시작 시간이 끝 시간이 가장 빠른 강의의 끝 시간보다 같거나 크다면
+                pq.poll();
+            }
+            pq.offer(list.get(i).end);
+        }
+
+        System.out.println(pq.size());
+    }
+}
