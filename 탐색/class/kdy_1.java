@@ -37,6 +37,7 @@ public class Main{
         queue.add(new Point(x, y));
         while(!queue.isEmpty()){
             Point p = queue.poll();
+
             for(int i=0; i<4; i++){
                 int nx = p.x + dx[i];
                 int ny = p.y + dy[i];
@@ -74,8 +75,10 @@ public class Main{
             for(int j=0; j<m; j++){
                 if(arr[i][j] == 0){
                     answer++;
+                    arr[i][j] = 1;
                     // dfs(i, j);
                     bfs(i, j);
+
                 }
             }
         }
