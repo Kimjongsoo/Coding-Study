@@ -1,0 +1,17 @@
+1. https://www.acmicpc.net/problem/1260
+   DFS와 BFS 35%
+
+2. https://www.acmicpc.net/problem/2583
+   영역 구하기 56%
+
+-------
+3. https://www.acmicpc.net/problem/11724
+   연결 요소의 개수 42%
+
+4. https://www.acmicpc.net/problem/2668
+  숫자고르기 45%
+
+5. https://www.acmicpc.net/problem/1697
+  숨바꼭질  25%
+
+숙제 1,2번
