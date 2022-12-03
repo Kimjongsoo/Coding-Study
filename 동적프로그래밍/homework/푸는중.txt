@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+//queue q;
+vector<int> graph[1000];
+int dfs(int n)
+{
+
+}
+int bfs(int n)
+{
+
+}
+int main(void)
+{
+	int n, m, v;
+	int arr[1000];
+	int in;
+	//입력
+	cin >> n;
+	cin >> m;
+	cin >> v;
+	for (int i = 0; i < n; i++)
+	{
+		cin >> in;
+		graph[i].push_back(in);
+	}
+
+	//dfs
+
+}
