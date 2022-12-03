@@ -1,0 +1,8 @@
+1. https://www.acmicpc.net/problem/2748
+피보나치 ( 젤루 유명)
+
+2. https://www.acmicpc.net/problem/1463
+흔히 아는 기본 문제 (이나 처음하면 어려움)
+
+3.https://www.acmicpc.net/problem/9095
+규칙을 찾아보자
